@@ -31,3 +31,16 @@
 ### `git commit`
 
 ### `git push`
+
+## 상태확인
+### working directory에서
+- `git status`
+    - add 전/후
+
+### staging area에서 (.git)
+- `git status`
+    - 추적이 되고 있는지만 확인 가능
+- `git log`
+    - commit 이후에만!!!
+    - `--oneline`: 간결하게 보여줌
+    - 내림차순
