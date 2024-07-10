@@ -2,6 +2,17 @@
 ## 커밋/푸쉬 규칙
 * 꼭! 항상! 절대!  `add`, `commit`, `push`는 최상단 폴더에서 작업하기
 
+## 내가 지금 사용하고있는 컴퓨터에서 처음으로 깃 작업을 할 때 1번만 하면 되는 작업
+
+### `git config`
+* 계정설정
+    * `git config --global user.name [나의 유저 네임]`
+    * `git config --global user.email [나의 깃헙 이메일]`
+* 계정확인
+    * `git config --global user.email`
+    * `git config --global user.name`
+    * 잘못 썼을 때는 덮어쓰기
+
 ## 처음으로 깃을 시작할 때 1번만 하면 되는 작업
 
 ### `git init`
